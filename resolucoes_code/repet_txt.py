@@ -2,4 +2,4 @@
 string = input("digite uma string:")
 numero = inte(input("digite um número inteiro:")
 
-print(string + " " + * numero)
+print(string + " ")  * numero)
