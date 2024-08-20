@@ -1,0 +1,12 @@
+import re
+
+frase = input("Digite uma frase: ")
+
+frase = re.sub(r'[^a-zA-Z]', '', frase).lower()
+
+frase_invertida = frase[::-1]
+
+if frase == frase_invertida:
+    print(f"A frase '{frase}' é um palíndromo.")
+else:
+    print(f"A frase '{frase}' não é um palíndromo.")
